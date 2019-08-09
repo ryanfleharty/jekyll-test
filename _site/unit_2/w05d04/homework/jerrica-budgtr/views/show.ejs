@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <% include ./partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <h1><%= ledgerItem.name %></h1>
+      <form action="/">
+        <button type="submit">BACK</button>
+      </form>
+      <ul>
+        <li><strong>Date:</strong> <%= ledgerItem.date %></li>
+        <li><strong>From:</strong> <%= ledgerItem.from %></li>
+        <li><strong>Amount:</strong> <%= ledgerItem.amount %></li>
+        <li><strong>tags:</strong> <%= ledgerItem.tags %></li>
+      </ul>
+    </div>
+  </body>
+</html>

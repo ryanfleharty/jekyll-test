@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <% include ./partials/head.ejs %>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BUDGTR - Index</h1>
+      <strong>Amount in Bank:</strong> <br/>
+      <% if (bankAccount < 0) { %>
+        <span class="bank debt"><%= bankAccount %></span>
+      <% } else if (bankAccount > 0 && bankAccount < 1000) { %>
+        <span class="bank green"><%= bankAccount %></span>
+      <% } else { %>
+        <span class="bank wealthy"><%= bankAccount %></span>
+      <% } %>
+      <table>
+        <% for (budget in budgetData) { %>
+          <tr>
+            <td><%= budgetData[budget].date %></td>
+            <td><a href="/item/<%=budget%>"><%= budgetData[budget].name %></a></td>
+            <td><%= budgetData[budget].amount %></td>
+          </tr>
+        <% } %>
+      </table>
+      <form action="/new">
+        <button type="submit">CREATE A NEW ITEM</button>
+      </form>
+    </div>
+  </body>
+</html>
