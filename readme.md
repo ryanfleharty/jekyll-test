@@ -15,6 +15,7 @@ Questions? Comments?
 ----
 
 > This is a one sentence summary of the value prop for this course.
+[Deployment instructions](./deployment-instructions.md)
 
 ## Overview
 Write a paragraph here summarizing a broad overview of this course. What will students learn? What will they create? What are some key differentiators/benefits that they can look forward to?
