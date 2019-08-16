@@ -1,0 +1,28 @@
+$brand-red: #E41A23;
+$brand-grey: #f5f5f5;
+$brand-black: #222222;
+
+body {
+    background-color: $brand-grey;
+    font-family: "Circular", "Noto Serif", serif;
+    padding: 0;
+}
+
+th {
+    color: white;
+    background-color: $brand-red
+}
+
+#markdown-document {
+    width: 95%;
+    margin: 0;
+    padding: 1em;
+}
+// The GA Icon
+#markdown-document img:first-of-type {
+    margin: 0px;
+    display: inline-block;
+    border: none;
+    height: 2.5em;
+    width: 2.5em;
+}
