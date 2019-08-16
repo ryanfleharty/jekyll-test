@@ -5,4 +5,4 @@ relative_links:
   collections: true
 
 theme: jekyll-theme-dinky
-source: "course-folder"
+source: "second-course-folder"
