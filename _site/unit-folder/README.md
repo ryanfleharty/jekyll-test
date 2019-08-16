@@ -4,12 +4,16 @@
 
 This unit encompasses X Y and Z topics, culminating in a project that does such-and-such.
 
-#### Lesson Materials
+## Lesson Materials
 
 Lesson | Lab | Homework
 ---- | ---- | ----
 [lesson-title](./lesson-folder/lesson-notes) | [lab](./lesson-folder/lab) | [homework](./lesson-folder/homework)
+[lesson-title](./lesson-folder/lesson-notes) | [lab](./lesson-folder/lab) | [homework](./lesson-folder/homework)
+[lesson-title](./lesson-folder/lesson-notes) | [lab](./lesson-folder/lab) | [homework](./lesson-folder/homework)
+[lesson-title](./lesson-folder/lesson-notes) | [lab](./lesson-folder/lab) | [homework](./lesson-folder/homework)
+[lesson-title](./lesson-folder/lesson-notes) | [lab](./lesson-folder/lab) | [homework](./lesson-folder/homework)
 
-#### Project
+## Project
 
 Brief description of the project. Detailed requirements can be found [here](./project-folder).
